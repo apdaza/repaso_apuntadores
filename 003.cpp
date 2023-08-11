@@ -16,6 +16,7 @@ int main(){
     cout << "Valor de la variable: " << num << endl;
     modificar_valor(num);
     cout << "despues de modificar por valor: " << num << endl;
-
+    modificar_referencia(&num);
+    cout << "despues de modificar por referencia: " << num << endl;
     return 0;
 }
